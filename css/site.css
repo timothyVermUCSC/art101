@@ -1,0 +1,22 @@
+#top-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 15vh;
+  background-color: salmon;
+  color: whitesmoke;
+}
+
+#subtitle{
+  margin-bottom: 1vh;
+}
+#title{
+  margin-bottom: 1vh;
+}
+main{
+  position: relative;
+  top: 16vh;
+
+}
