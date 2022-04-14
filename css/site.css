@@ -1,5 +1,5 @@
 #top-bar {
-  position: fixed;
+  display: block;
   left: 0;
   right: 0;
   top: 0;
@@ -10,13 +10,48 @@
 }
 
 #subtitle{
+  margin-top: 1vh;
   margin-bottom: 1vh;
+  padding-left: 1vw;
 }
 #title{
+  margin-top: 0px;
   margin-bottom: 1vh;
+  padding-left: 0.5vw;
 }
-main{
-  position: relative;
-  top: 16vh;
+#my-portrait{
+  width: 20vw;
+  box-shadow: -2px -2px whitesmoke;
+}
 
+#personal-link{
+  color: salmon;
+}
+
+#introduction{
+  display: flex;
+  background-color: #444242;
+  padding-top: 2vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 2vh;
+  font-size: 2vw;
+  text-align: center;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.lab-link{
+  color: whitesmoke;
+}
+
+li{
+  margin-bottom: 5px;
+}
+
+body{
+  margin: 0px;
+}
+
+html{
+  background-color: #444242;
 }
