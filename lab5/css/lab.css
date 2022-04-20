@@ -1,0 +1,25 @@
+#content{
+  margin-left: 5vh;
+  margin-right: 5vh;
+  margin-top: 5vh;
+  background-color: whitesmoke;
+  border: 1px solid darkgrey;
+  padding: 1vh;
+}
+
+#civic{
+  width: 25%;
+  padding-right: 5vh
+}
+
+#pimg{
+  display: flex;
+}
+
+#text{
+  display: block
+}
+
+h1{
+  text-shadow: 2px 2px darkgrey;
+}
