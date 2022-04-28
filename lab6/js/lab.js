@@ -2,7 +2,7 @@
  * Author: Brent Chou, Timothy Vermeersch (brechou@ucsc.edu, tdvermee@ucsc.edu)
  * Created: 25 April
  * License: Public Domain
- * https://tdvermee.github.io/art101/lab6/index.html
+ * https://timothyvermucsc.github.io/art101/lab6/index.html
  * art101/lab6/lab.js
  */
 
