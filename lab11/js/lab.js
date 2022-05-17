@@ -7,18 +7,22 @@
  */
 
 
-
+//
+// Toggles the special calss in the parent of the object calling the function
 function toggleSpecialClass(){
   $(this).parent().toggleClass("special");
 }
 
 $(document).ready(()=>{
+  //Creates three buttons
   var cButton = $("<button></button>").text("jQuery button");
   var pButton = cButton.clone();
   var rButton = cButton.clone();
+  //Attachs events
   cButton.click(toggleSpecialClass);
   pButton.click(toggleSpecialClass);
   rButton.click(toggleSpecialClass);
+  //Adds buttons to document
   $("#challenges").append(cButton);
   $("#problems").append(pButton);
   $("#results").append(rButton);
