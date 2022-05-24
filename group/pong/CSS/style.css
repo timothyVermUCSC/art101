@@ -1,0 +1,82 @@
+#pong{
+  position:absolute;
+  width:400px;
+  height:300px;
+  top:50%;
+  left:50%;
+  margin-top:-250px; /*half of the height*/
+  margin-left:-200px; /*half of the width*/
+}
+
+#p1{
+    position: absolute;
+    height: 50px;
+    width: 5px;
+    background-color: black;
+    top: 150px;
+    left: 25px;
+}
+
+#p2{
+    position: absolute;
+    height: 50px;
+    width: 5px;
+    background-color: black;
+    top: 150px;
+    right: 25px;
+}
+
+#ball{
+    position: absolute;
+    border-radius: 5vw;
+    width: 20px;
+    height: 20px;
+    top: 150px;
+    left: 200px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+}
+
+#scoreboard{
+    position: absolute;
+    font-family:'Courier New', Courier, monospace;
+    top:50%;
+    left:50%;
+    margin-top:-250px; /*half of the height*/
+    margin-left:-200px; /*half of the width*/
+    height: 300px;
+    width: 400px;
+    border: 5px solid black;
+    border-top: 5px solid black;
+}
+
+#p1s{
+    color: red;
+    /* float: left; */
+}
+
+#p2s{
+    color: blue;
+    float: right;
+}
+
+#topbar{
+    display: sticky;
+    float: top;
+    background-color: #6d37a5;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    box-shadow: 0px 5px	#b288dd;
+}
+
+#title{
+    margin: 0;
+    color: white;
+    font-size: 6vh;
+    font-family: Koulen, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    margin: 0;
+}
