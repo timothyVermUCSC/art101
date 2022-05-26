@@ -1,7 +1,7 @@
 
 #pokedex{
   width:20vw;
-  height:33vw;
+  height:fit-content;
   border: 5px solid #a35656;
   border-radius: 5px;
   margin-left: auto;
@@ -9,6 +9,7 @@
   background-color: #a35656;
   color:white;
   font-family: monospace;
+  padding-bottom: 5vw;
   margin-bottom: 3vh;
 }
 
