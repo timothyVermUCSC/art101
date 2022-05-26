@@ -1,0 +1,78 @@
+
+#pokedex{
+  width:20vw;
+  height:33vw;
+  border: 5px solid #a35656;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a35656;
+  color:white;
+  font-family: monospace;
+  margin-bottom: 3vh;
+}
+
+#pokeimg{
+  width: 100%;
+  image-rendering: crisp-edges;
+  background-color: teal;
+}
+
+#pokename{
+  margin-top: -3vw;
+  padding-left: 1vw;
+
+}
+
+#poketype{
+  padding-left: 1vw;
+}
+
+#pokeleft{
+  background-color: yellow;
+  border : none;
+  width: 8vw;
+  height: 4vw;
+  float: left;
+}
+
+#pokeright{
+  background-color: yellow;
+  border: none;
+  width: 8vw;
+  height: 4vw;
+  float: right;
+}
+
+#topbar{
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: salmon;
+  padding-top: 1px;
+  color: whitesmoke;
+}
+
+#title{
+  font-size: 5vh;
+  margin-left: 1.5vw;
+  margin-bottom: 0;
+  margin-top: 0.5vh;
+}
+
+#subtitle{
+  margin-top: 0px;
+  margin-left: 2vw;
+}
+
+#overview{
+  margin-left: 2vw;
+  margin-right: 2vw;
+}
+
+body{
+  margin : 0px;
+}
+
+#text{
+  margin-left: 2vw;
+}
