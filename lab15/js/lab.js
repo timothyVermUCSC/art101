@@ -1,3 +1,10 @@
+/*
+ * Author: Brent Chou, Timothy Vermeersch (brechou@ucsc.edu, tdvermee@ucsc.edu)
+ * Created: 25 May
+ * License: Public Domain
+ * https://timothyvermucsc.github.io/art101/lab15/index.html
+ * art101/lab15/lab.js
+ */
 
 var id = 1;
 
@@ -23,9 +30,11 @@ function getPokemon(name){
 }
 
 function updatePokemon(data){
+  //Updates all the data needed for the pokedex
   document.getElementById("pokeimg").src = data.sprites.front_default;
   document.getElementById("pokename").innerHTML = data.name;
   document.getElementById("poketype").innerHTML = data.types[0].type.name;
+  //Loops over types if there are more than one
   for(var i = 1; i<data.types.length;i++){
     document.getElementById("poketype").innerHTML += ", " + data.types[i].type.name;
   }
@@ -35,6 +44,7 @@ function updatePokemon(data){
   console.log(JSON.stringify(data));
 }
 
+//Decrements the id if possible
 $("#pokeleft").click(() => {
   console.log(id);
   if(id > 1){
@@ -44,11 +54,13 @@ $("#pokeleft").click(() => {
   getPokemon(id);
 })
 
+//Increments the id
 $("#pokeright").click(() => {
     id += 1;
   getPokemon(id);
 })
 
+//Searchs for the name or id in the search bar
 $("#search").click( () => {
   getPokemon($("#name").val());
 })
