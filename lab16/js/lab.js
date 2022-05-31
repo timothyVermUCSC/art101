@@ -27,7 +27,7 @@ function getComic(id){
     // What we do if the api call fails
     error: function (jqXHR, textStatus, errorThrown) {
         // do stuff
-        console.log("Bruh");
+        //Decrements the curComic var in case it is going past the newest
         curComic--;
         console.log("Error:", textStatus, errorThrown);
     }
@@ -36,18 +36,22 @@ function getComic(id){
 
 function updateComic(comicObj){
   console.log(comicObj);
+  //Used to get the newest comic number on first requests
   curComic = comicObj.num;
+  //Updates the html attributes for the comic
   $("#comic").attr("src",comicObj.img);
   $("#comic").attr("alt",comicObj.alt);
   $("#comic").attr("title",comicObj.title);
 }
 
 function next(){
+  //Increments the cur comic var
   curComic++;
   getComic(curComic);
 }
 
 function prev(){
+  //Decrements the cur comic var
   curComic--;
   getComic(curComic);
 }
