@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lab 16: JSON and APIs (XKCD comic!)</title>
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
+    <script src="js/lab.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <div id = "topbar">
+      <h1 id = "title">Lab 16</h1>
+      <h2 id = "subtitle">JSON and APIs</h2>
+    </div>
+    <div id = "text">
+      <p> This Lab focused on making an api call to a daily comic and displaying
+      said comic on the page.</p>
+      <hr>
+      <h2 id = "challenges">Challenges</h2>
+      <p> The only real challenge to this lab was that xkcd didn't allow cross
+      origin requests. From what Timothy remembers from some personal projects
+      CORS requests are requests that come from a url that is not the url
+      that the api has specified as its origin(usual the site the api is hosted
+      on). To get around this we just found a different api that accepted cors
+      request to the xkcd comics.</p>
+      <hr>
+      <h2 id = "results">Results</h2>
+      <p>You can see the comic displayed below</p>
+      <hr>
+    </div>
+    <div id = "output">
+      <img id = "comic" alt = "Couldn't load comic">
+      <div id = "controls">
+        <button onclick="prev()" class = "control" id = "prev">Previous</button>
+        <button onclick="next()" class = "control" id = "next">Next</button>
+      </div>
+    </div>
+  </body>
+</html>
