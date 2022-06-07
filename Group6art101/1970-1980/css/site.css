@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Monoton|Quantico:700');
+
+h1 {
+    margin-left: 105px;
+    font-size: 70px;
+    color: #3d0e6f;
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+
+}
+.text {
+    height: 200px;
+    display: inline-block;
+    font-size: 100px;
+    line-height: 84%;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 7px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: white;
+    margin-top: -50px;
+
+}
+
+html,
+body,
+#background {
+width: 100vw;
+min-height: 100vh;
+background-image: linear-gradient(white, #6d37a5);
+}
+
+
+ h3 {
+   color: black;
+   font-size: 200%;
+   font-family: 'Exo';
+   margin-left: 115px;
+}
+
+p {
+  font-variant: small-caps;
+	font-family: 'Audiowide';
+  margin-left: 125px;
+  color: black;
+  width: 80vw;
+  line-height: 2 ;
+  font-size: 20px;
+}
+#pic{
+  width: 350px;
+  float: right;
+  margin-top: -5px;
+  padding: 20px;
+}
+
+#link{
+    border: 3vw solid #cccccc;
+    font-size: 3vw;
+    background-color: #cccccc;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 4vh;
+    margin-right: 4vh;
+    float: right;
+}
+
+#link:hover{
+    box-shadow: 3px 3px black;
+}
+#space2 {
+  image-rendering; pixelated;
+  margin-left: 110px;
+}
+#space1 {
+  image-rendering; pixelatedS
+}

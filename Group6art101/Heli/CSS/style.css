@@ -1,0 +1,64 @@
+#game{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    border: 5px solid greenyellow;
+    position: relative;
+    background-color: white;
+}
+
+#heli{
+    width: 70px;
+    image-rendering: pixelated;
+    top: 120px;
+    left: 100px;
+    position: relative;
+}
+
+#obstacle{
+    width: 20px;
+    height: 150px;
+    background-color: greenyellow;
+    position: absolute;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+#link{
+    font-size: large;
+    background-color: green;
+    color: white;
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid green;
+}
+
+#info{
+    width: 500px;
+    height: fit-content;
+    border: 5px solid greenyellow;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #3d0e6f;
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+  
+  }
+  
+  p {
+    font-variant: small-caps;
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+  }
+
+  html{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(white, #6d37a5);
+    }
+    

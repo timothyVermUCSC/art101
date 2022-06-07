@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Pirata+One|Rubik:900');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Monoton|Quantico:700');
+
+
+html,
+body,
+#background {
+width: 100vw;
+min-height: 100vh;
+background-image: linear-gradient(white, #6d37a5);
+}
+
+h1 {
+    margin-left: 115px;
+    font-size: 70px;
+    color: #3d0e6f;
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+
+}
+
+ h3 {
+  color: black;
+  font-size: 200%;
+  font-family: 'Exo';
+  margin-left: 25px;
+}
+
+#p {
+  font-variant: small-caps;
+	font-family: 'Audiowide';
+  margin-left: 125px;
+  margin-top: -75px;
+  color: black;
+  width: 80vw;
+  line-height: 2 ;
+  font-size: 20px;
+}
+
+#pic{
+  width: 400px;
+  float: right;
+  margin-top: 45px;
+  padding: 20px;
+}

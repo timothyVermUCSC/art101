@@ -1,0 +1,122 @@
+#game{
+    width: 300px;
+    height: 500px;
+    border: 5px solid black;
+    position: absolute;
+}
+
+#info{
+    border: 5px solid black;
+    width: 500px;
+    left: 310px;
+    height: 480px;
+    position: absolute;
+    padding: 10px;
+}
+
+#stomps{
+    display: inline-flex;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.stomp{
+    margin-left: 16px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+}
+
+#left{
+    border: 2px solid green;
+}
+
+#up{
+    border: 2px solid blue;
+}
+
+#down{
+    border: 2px solid yellow;
+}
+
+#right{
+    border: 2px solid red;
+}
+
+.leftNote{
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    left: 18px;
+    position: absolute;
+}
+
+.rightNote{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    left: 228px;
+    position: absolute;
+}
+
+.upNote{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    left: 88px;
+    position: absolute;
+}
+
+.downNote{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    left: 158px;
+    position: absolute;
+}
+
+#link{
+    font-size: large;
+    background-color: green;
+    color: white;
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid green;
+}
+
+.text {
+    height: 200px;
+    display: inline-block;
+    font-size: 100px;
+    line-height: 84%;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 7px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: white;
+    margin-top: -50px;
+
+}
+
+html{
+width: 100vw;
+min-height: 100vh;
+background-image: linear-gradient(white, #6d37a5);
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  color: #3d0e6f;
+  font-family: 'Rubik', sans-serif;
+  padding: 0;
+
+}
+
+p {
+  font-variant: small-caps;
+  margin-left: 10px;
+  color: black;
+  font-size: 20px;
+}

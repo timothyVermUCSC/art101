@@ -1,0 +1,115 @@
+#pong{
+    position: relative;
+    width:400px;
+    height:300px;
+    border: 5px solid black;
+  }
+
+  #p1{
+      position: absolute;
+      height: 50px;
+      width: 5px;
+      background-color: black;
+      top: 150px;
+      left: 25px;
+  }
+
+  #p2{
+      position: absolute;
+      height: 50px;
+      width: 5px;
+      background-color: black;
+      top: 150px;
+      right: 25px;
+  }
+
+  #ball{
+      position: absolute;
+      border-radius: 5vw;
+      width: 20px;
+      height: 20px;
+      top: 150px;
+      left: 200px;
+      background-color: yellowgreen;
+      border: 1px solid black;
+  }
+
+  #scoreboard{
+      position: relative;
+      font-family:'Courier New', Courier, monospace;
+      height: 50px;
+      width: 400px;
+      border-top: none;
+      border: 5px solid black;
+      white-space: nowrap;
+      display: flex;
+  }
+
+  #p1s{
+    color: red;
+    float: left;
+}
+
+#p2s{
+    color: blue;
+    padding-left: 200px;
+}
+
+#pongGame{
+  margin-right:auto;
+  margin-left: auto;
+  position: absolute;
+  width: fit-content;
+}
+
+#link{
+    display: none;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #3d0e6f;
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+
+}
+.text {
+    height: 200px;
+    display: inline-block;
+    font-size: 100px;
+    line-height: 84%;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 7px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: white;
+    margin-top: -50px;
+
+}
+
+html{
+width: 100vw;
+min-height: 100vh;
+background-image: linear-gradient(white, #6d37a5);
+}
+
+
+ h1 {
+  color: #6d37a5;
+  font-size: 200%;
+  font-family: 'Exo';
+  margin-left: 50px;
+}
+
+p {
+  font-variant: small-caps;
+	font-family: 'Audiowide';
+  text-indent: 20px;
+  margin-left: 10px;
+  color: black;
+  width: 80vw;
+  line-height: 2 ;
+  font-size: 18px;
+}

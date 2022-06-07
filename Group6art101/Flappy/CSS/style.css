@@ -1,0 +1,65 @@
+#flappy{
+    width: 500px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: skyblue;
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+}
+
+#bird{
+    position: relative;
+    left: 100px;
+    top: 120px;
+    height: 30px;
+    image-rendering: pixelated;
+}
+
+#obstacle{
+    width: 50px;
+    height: 400px;
+    background-color: green;
+    border: solid black 5px;
+    position: absolute;
+}
+
+#info{
+    position: relative;
+    border: solid black 5px;
+    height: fit-content;
+    width: 500px;
+}
+
+#link{
+    font-size: large;
+    background-color: green;
+    color: white;
+    display: none;
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid green;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #3d0e6f;
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+  
+  }
+  
+  p {
+    font-variant: small-caps;
+    margin-left: 10px;
+    color: black;
+    font-size: 20px;
+  }
+
+  html{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: linear-gradient(white, #6d37a5);
+    }
+    
